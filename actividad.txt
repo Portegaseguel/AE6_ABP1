@@ -1,1 +1,12 @@
 # Pasos ejecutados en la actividad
+printf "# Creo carpeta y repo, verifico estado, agrego archivo, hago commits y subo a GitHub\n" > actividad.txt
+printf "cd ~/Documents\nmkdir AE6_ABP1 && cd AE6_ABP1\ngit init\ngit status\n" >> actividad.txt
+printf "printf \"Temario del repositorio:\\n- Archivos de la actividad AE6_ABP1\\n\" > contenidos.txt\n" >> actividad.txt
+printf "cat contenidos.txt\nls -lh contenidos.txt\n" >> actividad.txt
+printf "git add contenidos.txt\ngit commit -m \"Primera versión del temario subida a repositorio\"\n" >> actividad.txt
+printf "echo \"Módulo X: Nombre del Proyecto\" >> contenidos.txt\n" >> actividad.txt
+printf "git status\ngit diff -- contenidos.txt\n" >> actividad.txt
+printf "git add contenidos.txt\ngit commit -m \"Versión actualizada del contenido\"\n" >> actividad.txt
+printf "git branch -M main\n" >> actividad.txt
+printf "git remote add origin git@github.com:Portegaseguel/AE6_ABP1.git\n" >> actividad.txt
+printf "git push -u origin main\n" >> actividad.txt
