@@ -1,3 +1,3 @@
 Temario del repositorio:
 - Archivos de la actividad AE6_ABP1
-Módulo X: Nombre del Proyecto
+Módulo 4: Nombre del Proyecto
